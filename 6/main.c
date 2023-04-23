@@ -37,8 +37,8 @@ typedef struct {
   Philosopher phil[COUNT];
 } shared_memory;
 
-struct sembuf lock = {0, -1, SEM_UNDO}; // операция убавление еденицы
-struct sembuf unlock = {0, 1, SEM_UNDO};// операция добавление еденицы
+struct sembuf lock = {0, -1, SEM_UNDO}; // операция убавление единицы
+struct sembuf unlock = {0, 1, SEM_UNDO};// операция добавление единицы
 
 int sem_v;
 int buf_id;
