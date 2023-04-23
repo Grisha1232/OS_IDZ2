@@ -17,8 +17,8 @@
 ## На оценку 4:
 > Множество процессов взаимодействуют с использованием име- нованных POSIX семафоров. Обмен данными ведется через разделяемую память в стандарте POSIX.
 
-* [Исходные файлы](https://github.com/Grisha1232/OS_IDZ2/4)
-* [Вывод программы](https://github.com/Grisha1232/OS_IDZ2/4)
+* [Исходные файлы](https://github.com/Grisha1232/OS_IDZ2/tree/main/4)
+* [Вывод программы](https://github.com/Grisha1232/OS_IDZ2/tree/main/4)
 
 
 
