@@ -173,7 +173,7 @@ int main(int argc, char *argv[]) {
     arg = (A *) malloc(sizeof(A));
     arg->buf = buffer;
     arg->id = i;
-    pthread_create(&pt[1], NULL, startPhil, arg);
+    pthread_create(&pt[i], NULL, startPhil, arg);
   }
 
   for (int i = 0; i < COUNT; i++) {
