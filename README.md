@@ -52,7 +52,7 @@
 
 > Запуск программы осуществляется через командную строку в разных терминалах:
 ```
-g++ philosophers.c -o phil
+g++ philosophers.c -o phil -pthread
 ./phil
 ```
 ```
@@ -71,7 +71,7 @@ g++ output.c -o output
 
 > Запуск программы осуществляется через командную строку в разных терминалах:
 ```
-g++ philosophers.c -o phil
+g++ philosophers.c -o phil -pthread
 ./phil
 ```
 ```
